@@ -1,6 +1,6 @@
 # Recursividad
 ## Factorial
-En otras palabras, el **factorial** de un número es simplemente el resultado de multiplicar ese número por todos los números menores que él hasta llegar a 1.
+El **factorial** de un número es simplemente el resultado de multiplicar ese número por todos los números menores que él hasta llegar a 1.
 
 Por ejemplo:
 
