@@ -16,3 +16,16 @@ El factorial crece muy rápido conforme el número aumenta.
 
 He guardado el código en una nota titulada "Código Kotlin".
 http://googleusercontent.com/action_card_content/1
+
+## Contar regresivo
+```kotlin
+fun contarRegresivo(n: Int) {
+    if (n == 0) return
+    println(n)
+    contarRegresivo(n - 1)
+}
+
+fun main() {
+    contarRegresivo(5)
+}
+```
