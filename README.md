@@ -29,3 +29,17 @@ fun main() {
     contarRegresivo(5)
 }
 ```
+
+## Suma de los primeros numeros
+```kotlin
+fun suma(n: Int): Int {
+    return if (n == 0) {
+        0
+    } else {
+        n + suma(n - 1)
+    }
+}
+fun main() {
+    println(suma(5)) // prints 15 (5+4+3+2+1)
+}
+```
